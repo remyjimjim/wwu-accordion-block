@@ -33,5 +33,6 @@
 	},
 	"textdomain": "wwu-accordion-block",
 	"editorScript": "file:./index.js",
+	"style": "file:./style-index.css",
     "render": "file:./render.php"
 }

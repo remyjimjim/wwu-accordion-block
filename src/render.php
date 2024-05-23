@@ -26,13 +26,13 @@
 	
 	<script>
 	if (customElements.get("wwu-accordion") === undefined) {
-		alert("Custom element NOT defined");
+		//alert("Custom element NOT defined");
 		var scriptTag = document.createElement("script");
 		scriptTag.type = "text/javascript";
 		scriptTag.src = "https://ashlar.blob.core.windows.net/ashlar-theme-files/js/accordion.js";
 		$("body").append(scriptTag);
 	} else {
-		alert("Custom element IS defined");
+		//alert("Custom element IS defined");
 	}
 	</script>
 	';

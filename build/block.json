@@ -5,16 +5,33 @@
   "version": "0.1.0",
   "title": "Wwu Accordion Block",
   "category": "widgets",
-  "icon": "smiley",
+  "attributes": {
+    "headingLevel": {
+      "type": "string",
+      "default": "h3"
+    },
+    "accordionTitle": {
+      "type": "string",
+      "default": "Accordion Title"
+    },
+    "accordionContent": {
+      "type": "string"
+    }
+  },
   "description": "Example block scaffolded with Create Block tool.",
   "example": {},
   "supports": {
-    "html": false
+    "color": {
+      "background": true,
+      "text": true
+    },
+    "html": false,
+    "typography": {
+      "fontSize": true
+    }
   },
   "textdomain": "wwu-accordion-block",
   "editorScript": "file:./index.js",
-  "editorStyle": "file:./index.css",
   "style": "file:./style-index.css",
-  "render": "file:./render.php",
-  "viewScript": "file:./view.js"
+  "render": "file:./render.php"
 }
