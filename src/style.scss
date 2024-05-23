@@ -1,37 +1,82 @@
 
 
-.wp-block-create-block-wwu-accordion-block button {
-    border: 2em;
+wwu-accordion.wp-block-create-block-wwu-accordion-block.has-text-color button {
+    //border: .5em solid black;
     padding: 10px 20px;
     //font-size: 16px;
     cursor: pointer;
 }
 
-// Force accordion's title text color to be what was set in the editor.
-wwu-accordion.wp-block-create-block-wwu-accordion-block.has-text-color.has-white-color > wwu-accordion-item button {
-    color: var(--wp--preset--color--white) !important;
-}
-// Force accordion's title icon to be the same color as the text color that was set in the editor.
-wwu-accordion.wp-block-create-block-wwu-accordion-block.has-text-color.has-white-color > wwu-accordion-item button > span.component-icon {
-    fill: var(--wp--preset--color--white) !important;
-}
+wwu-accordion.wp-block-create-block-wwu-accordion-block.has-text-color {
+    // Set accordion title's text color and icon to white
+    &.has-white-color > wwu-accordion-item button {
+        color: var(--wp--preset--color--white) !important;
 
-// Force accordion's title text color to be what was set in the editor.
-wwu-accordion.wp-block-create-block-wwu-accordion-block.has-text-color.has-wwu-dark-blue-color > wwu-accordion-item button {
-    color: var(--wp--preset--color--wwu-dark-blue) !important;
-}
+        span.component-icon {
+            fill: var(--wp--preset--color--white) !important;
+        }
+    }
 
-// Force accordion's title icon to be the same color as the text color that was set in the editor.
-wwu-accordion.wp-block-create-block-wwu-accordion-block.has-text-color.has-wwu-dark-blue-color > wwu-accordion-item button > span.component-icon {
-    fill: var(--wp--preset--color--wwu-dark-blue) !important;
-}
+    // Set accordion title's text color and icon to dark blue
+    &.has-wwu-dark-blue-color > wwu-accordion-item button {
+        color: var(--wp--preset--color--wwu-dark-blue) !important;
 
-// Force accordion's title text color to be what was set in the editor.
-wwu-accordion.wp-block-create-block-wwu-accordion-block.has-text-color.has-wwu-light-green-color > wwu-accordion-item button {
-    color: var(--wp--preset--color--wwu-light-green) !important;
-}
+        span.component-icon {
+            fill: var(--wp--preset--color--wwu-dark-blue) !important;
+        }
+    }
 
-// Force accordion's title icon to be the same color as the text color that was set in the editor.
-wwu-accordion.wp-block-create-block-wwu-accordion-block.has-text-color.has-wwu-light-green-color > wwu-accordion-item button > span.component-icon {
-    fill: var(--wp--preset--color--wwu-light-green) !important;
+    // Set accordion title's text color and icon to light green
+    &.has-wwu-light-green-color > wwu-accordion-item button {
+        color: var(--wp--preset--color--wwu-light-green) !important;
+
+        span.component-icon {
+            fill: var(--wp--preset--color--wwu-light-green) !important;
+        }
+    }
+
+    // Set accordion title's text color and icon to black
+    &.has-black-color > wwu-accordion-item button {
+        color: var(--wp--preset--color--black) !important;
+
+        span.component-icon {
+            fill: var(--wp--preset--color--black) !important;
+        }
+    }
+
+    // Set accordion title's text color and icon to gray
+    &.has-wwu-gray-color > wwu-accordion-item button {
+        color: var(--wp--preset--color--wwu-gray) !important;
+
+        span.component-icon {
+            fill: var(--wp--preset--color--wwu-gray) !important;
+        }
+    }
+
+    // Set accordion title's text color and icon to blue
+    &.has-wwu-blue-color > wwu-accordion-item button {
+        color: var(--wp--preset--color--wwu-blue) !important;
+
+        span.component-icon {
+            fill: var(--wp--preset--color--wwu-blue) !important;
+        }
+    }
+
+    // Set accordion title's text color and icon to dark green
+    &.has-wwu-dark-green-color > wwu-accordion-item button {
+        color: var(--wp--preset--color--wwu-dark-green) !important;
+
+        span.component-icon {
+            fill: var(--wp--preset--color--wwu-dark-green) !important;
+        }
+    }
+
+    // Set accordion title's text color and icon to green
+    &.has-green-color > wwu-accordion-item button {
+        color: var(--wp--preset--color--green) !important;
+
+        span.component-icon {
+            fill: var(--wp--preset--color--green) !important;
+        }
+    }
 }
