@@ -17,7 +17,7 @@ It has:
 - A choice of 8 different background colors.  
 - Accessibility features like:
   - Selectable heading levels from h3 to h5.
-  - Tab access with dotted highlighting. 
+  - Tabbed access with dotted highlighting. 
   - Last item clicked colored indicator.
 
 == Installation ==
