@@ -10,8 +10,7 @@ This block scaffolded with Create Block tool.
 
 == Description ==
 
-This accordion uses a '+' icon that when clicked will 'open the drawer' and when clicked again the drawer will
-close. After closing the drawer the closed accordion is highlighted as the last clicked accordion until focus
+This accordion uses a '+' icon that when clicked will 'open the drawer' and when clicked again will close the drawer. After closing the drawer the closed accordion is highlighted as the last clicked accordion until focus
 leaves the accordion.
 It has:
 - A choice of 8 different text colors.
