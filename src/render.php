@@ -16,7 +16,7 @@
     $myProps = get_block_wrapper_attributes();
 	$myProps = rtrim($myProps, '"');
 	$myProps = $myProps . ' item"';
-	echo "The Props are: |" . $myProps . "|";
+	//echo "The Props are: |" . $myProps . "|";
 	$block_content = '
 	<wwu-accordion ' . $myProps . ' >
 		<wwu-accordion-item label=" ' . $attributes['accordionTitle'] . '" heading-level="' . $attributes['headingLevel'] . '">
