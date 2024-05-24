@@ -1,19 +1,25 @@
 === Wwu Accordion Block ===
-Contributors:      The WordPress Contributors
+Contributors:      Alex Waltrip, Stephanie Paulantis and Carly Gerard
 Tags:              block
 Tested up to:      6.1
 Stable tag:        0.1.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
-Example block scaffolded with Create Block tool.
+This block scaffolded with Create Block tool.
 
 == Description ==
 
-This is the long description. No limit, and you can use Markdown (as well as in the following sections).
-
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+This accordion uses a '+' icon that when clicked will 'open the drawer' and when clicked again the drawer will
+close. After closing the drawer the closed accordion is highlighted as the last clicked accordion until focus
+leaves the accordion.
+It has:
+- A choice of 8 different text colors.
+- A choice of 8 different background colors.  
+- Accessibility features like:
+  - Selectable heading levels from h3 to h5.
+  - Tab access with dotted highlighting. 
+  - Last item clicked colored indicator.
 
 == Installation ==
 
@@ -27,13 +33,15 @@ e.g.
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+= Do have any enhancements planned? =
 
-An answer to that question.
+Yes.  We plan on adding:
+- Border control.  An option will be added to add a border with color, style and thickness props. Maybe.
 
-= What about foo bar? =
+= Is there a contact to send mega platitudes of joy and/or offers of donation for the use of this 
+fabulous plugin? =
 
-Answer to foo bar dilemma.
+Yes, that would be webhelp@wwu.edu.
 
 == Screenshots ==
 
